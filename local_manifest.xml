@@ -11,6 +11,11 @@
     <project name="xiaomi-dev/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="git" />
     <project name="xiaomi-dev/android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="git" />
     <project name="xiaomi-dev/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="git" />
+    
+    <!-- cepheus -->
+    <project name="xiaomi-dev/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="git" />"
+    <project name="LineageOS/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" remote="git" />"
+    <project name="LineageOS/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" remote="git" />"
 
     <!-- perseus -->
     <!--
