@@ -34,4 +34,7 @@
 
     <!-- Hardware -->
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" />
+
+    <!-- local manifest -->
+    <project name="xiaomi-dev/xiaomi_local_manifest" path="xiaomi_local_manifest" remote="git" />
 </manifest>
