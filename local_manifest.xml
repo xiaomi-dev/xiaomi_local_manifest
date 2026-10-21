@@ -5,8 +5,7 @@
            revision="refs/heads/lineage-24.0" />
 
     <remote  name="private"
-           fetch="ssh://git@github.com"
-           revision="refs/heads/lineage-24.0" />
+           fetch="ssh://git@github.com" />
 
     <!-- XiaoMi -->
     <!-- clover -->
