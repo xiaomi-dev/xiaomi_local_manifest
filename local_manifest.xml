@@ -4,18 +4,22 @@
            fetch="https://github.com/"
            revision="refs/heads/lineage-23.2" />
 
+    <remote  name="private"
+           fetch="ssh://git@github.com" />
+
     <!-- XiaoMi -->
     <!-- clover -->
-    <project name="xiaomi-dev/android_device_xiaomi_clover" path="device/xiaomi/clover" remote="git" />
-    <project name="xiaomi-dev/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="git" />
-    <project name="xiaomi-dev/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="git" />
-    <project name="xiaomi-dev/android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="git" />
-    <project name="xiaomi-dev/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="git" />
-    
+    <project name="xiaomi-dev/android_device_xiaomi_clover" path="device/xiaomi/clover" remote="private" />
+    <project name="xiaomi-dev/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="private" />
+    <project name="xiaomi-dev/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="private" />
+    <project name="xiaomi-dev/android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="private" />
+    <project name="xiaomi-dev/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="private" />
+
     <!-- cepheus -->
-    <project name="xiaomi-dev/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="git" />"
+    <project name="xiaomi-dev/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="private" />"
     <project name="LineageOS/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" remote="git" />"
     <project name="LineageOS/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" remote="git" />"
+
 
     <!-- perseus -->
     <!--
@@ -26,15 +30,13 @@
     <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="git" />
     -->
     <!-- gauguin -->
-    <!--
     <project name="LineageOS/android_device_xiaomi_gauguin" path="device/xiaomi/gauguin" remote="git" />"
     <project name="LineageOS/android_kernel_xiaomi_gauguin" path="kernel/xiaomi/gauguin" remote="git" />"
     <project name="TheMuppets/proprietary_vendor_xiaomi_gauguin" path="vendor/xiaomi/gauguin" remote="git" />
-    -->
 
     <!-- Hardware -->
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" />
 
     <!-- local manifest -->
-    <project name="xiaomi-dev/xiaomi_local_manifest" path="xiaomi_local_manifest" remote="git" />
+    <project name="xiaomi-dev/xiaomi_local_manifest" path="xiaomi_local_manifest" remote="private" />
 </manifest>
